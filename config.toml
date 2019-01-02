@@ -61,19 +61,22 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "github"
     url = "https://github.com/Nazariglez"
 
+  [[params.social]]
+    name = "email"
+    url = "mailto:me@nazariglez.com"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "#"
+
 [menu]
 
   [[menu.main]]
     name = "Blog"
-    url = "/blog/"
+    url = "/posts/"
     weight = 10
-
-  [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 20
     
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 30
+    weight = 20
